@@ -5,11 +5,12 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		for(int i=0; i<100; i++) {
+			String a = sc.nextLine();
+			System.out.println(a);
+			
 			if(!sc.hasNextLine()) {
 				break;
 			}
-			String a = sc.nextLine();
-			System.out.println(a);
 		}
 	}
 }
